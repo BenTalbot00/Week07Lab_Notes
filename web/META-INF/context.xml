@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Week07Lab_Notes">
+    <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" 
+            maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/NotesDB" password="pass" 
+            removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" 
+            url="jdbc:mysql://localhost:3306/NotesDB?autoReconnect=true" username="root"/>
+</Context>
